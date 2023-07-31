@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeforces Profile Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
+    <script src="./assets/index.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Codeforces Profile Portal</h1>
+        <hr>
+    </div>
+
+    <div class="main">
+        <form action="javascript:getData()">
+            <span>
+            <h3>Username:</h3>
+            <input type="text" id="username" name="username"><br>
+        </span>
+            <center><input type="submit" id="sub_button" value="SEARCH"></center>
+        </form>
+        <center>
+            <div id="userNotFound">
+                <p>Please enter a valid username.</p>
+            </div>
+            <div id="userData"><br>
+                <h3>...User Info...</h3>
+                <div id="userAvatar"></div>
+                <p id="userHandle">Handle: </p>
+                <p id="userName">Name: </p>
+                <p id="userMaxRating">Max Rating: </p>
+                <p id="userMaxRank">Max Rank: </p>
+                <p id="userRating">Rating: </p>
+                <p id="userRank">Rank: </p>
+                <p id="userCountry">Country: </p>
+                <p id="userOrg">Organization: </p>
+                <p id="userFriendsCount">Friends Count: </p><br>
+                <hr>
+                <h3>...Recent Contests...</h3>
+                <div id="recentContests"></div><br>
+                <hr>
+                <h3>...Graph...</h3>
+                <div id="graph"><canvas id="myChart" style="height:30vh;max-width:90vh"></canvas></div><br>
+                <hr>
+                <h3>...Blogs...</h3>
+                <div id="blog"></div><br>
+                <hr>
+                <h3>...My Friends...</h3>
+                <h4>Online Friends:</h4>
+                <div id="onlineFriends"></div>
+                <h4>All Friends:</h4>
+                <div id="allFriends"></div>
+
+            </div>
+    </div>
+    </center>
+</body>
+
+</html>

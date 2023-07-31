@@ -1,0 +1,138 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f5f5, #e0e0e0);
+}
+
+.heading {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to right, #e88383, #ee7979, #78e0c7);
+    color: #fff;
+}
+
+.heading h1 {
+    font-size: 32px;
+}
+
+.main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form h3 {
+    font-size: 18px;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+}
+
+form input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: linear-gradient(to right, #6ee6d2, #e7df3f);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background: linear-gradient(to right, #444, #555);
+}
+
+#userNotFound,
+#userData {
+    display: none;
+}
+
+#userNotFound,
+#userData h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#userData {
+    text-align: left;
+}
+
+#userAvatar img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#userData p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#recentContests table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#recentContests th,
+#recentContests td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+#recentContests th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+#graph {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#blog h4 {
+    margin-top: 20px;
+}
+
+#blog p {
+    margin: 5px 0;
+}
+
+#blog p b {
+    font-weight: bold;
+}
+
+#onlineFriends,
+#allFriends {
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+#onlineFriends h4,
+#allFriends h4 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#onlineFriends p,
+#allFriends p {
+    font-size: 16px;
+    margin: 5px 0;
+}
